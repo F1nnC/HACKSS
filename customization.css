@@ -1,0 +1,121 @@
+/*Code Profile Card*/
+
+:root {
+    --font-family-primary: "Monteserrat", sans-serif;
+    --font-family-secondary: "Fraunces", serif;
+    --font-weight-reg: 500;
+    --font-weight-bold: 700;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-reg);
+    font-size: 0.875rem;
+    display: grid;
+    place-content: center;
+    margin: 1rem;
+}
+
+h1 {
+    color: hsl(284, 100%, 65%);
+    font-size: 2rem;
+    font-family: var(--font-family-secondary);
+    line-height: 1;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+}
+
+.flex-group {
+    display: flex;
+    gap: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    align-items: center;
+}
+
+.profile {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 4%;
+    overflow: hidden;
+    display: grid;
+    max-width: 600px;
+}
+@media (min-width: 600px) {
+    .profile {
+    grid-template-columns: 1fr 1fr;
+    }
+}
+.content {
+    padding: 1rem;
+    display: grid;
+}
+
+.detail {
+    letter-spacing: 5px;
+}
+
+p {
+    font-size: 14px;
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-bold);
+    color: hsl(308, 67%, 56%);
+}
+
+.button{
+    display: inline-block;
+    text-decoration: none;
+    color: #f00808;
+    border: 1px solid #6f0505;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+ }
+ /*when the inv-btn is hovered by the cursor then there will be a different color, this is similar to the underline of the cta buttons*/
+ .button:hover{
+    border: 1px solid rgb(77, 66, 68);
+    background: rgb(77, 66, 68);
+    transition: 1s;
+ }
+
+
+/*Box Size*/
+  *,
+  *::before,
+  *::after {
+box-sizing: border-box;
+}
+
+/*Remove Margin*/
+  * {
+margin: 0;
+}
+
+html,body {
+height: 100%;
+}
+
+/*Smoother Font*/
+body {
+line-height: 1.5;
+-webkit-font-smoothing: antialiased;
+}
+
+/*Improve Media*/
+img, picture, video, canvas, svg {
+display: block;
+max-width: 100%;
+}
+
+/*Text Overflow Prevention*/
+p, h1, h2, h3, h4, h5, h6 
+{
+overflow-wrap: break-word;
+}
+
+
+
+
+

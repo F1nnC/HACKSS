@@ -1,0 +1,120 @@
+*{
+    background: red;
+}
+
+div{
+    background: red;
+}
+
+li{
+    background: red;
+}
+
+span{
+    background: red;
+}
+
+.class{
+    background: red;
+}
+
+#id{
+    background: blue;
+}
+
+/*only div with .class will have green*/
+/*when you want to combine them add them with out spaces*/
+div.class{
+    background: green;
+}
+
+/*------Pseudo Elements--------*/
+
+/*will show up before or after the div*/
+div.red::before{
+    content: 'Before',
+    background: blueviolet;
+}
+
+
+/*------Pseudo Classes-----*/
+/*Style based on user interaction with pages*/
+
+/*when li is hovered with mouse it will have yellow background*/
+li:hover{
+    background: yellow;
+}
+
+/*when clicked it will have a yellow background*/
+input:focus{
+    background: yellow;
+}
+
+/*only select inputs with REQUIRED attribute*/
+input:required{
+    background: yellow;
+}
+
+/*check boxes*/
+input:checked{
+    background: yellow;
+    margin:50px;
+}
+
+/*disabled=not working anymore*/
+input:disabled{
+    margin:50px;
+}
+
+/*----Pseudo Classes Child----*/
+
+/*first child inside of the parent in this case ul*/
+li:first-child{
+    background:orange;
+}
+li:last-child{
+    background:orange
+}
+
+/*pass a number and choose which child*/
+/*using '(2n)' will give every second element and '(3n)' will give every third element and so on*/
+/*can also use '(3n -1)', it will choose every third element but is offset by 1*/
+li:nth-child(2){
+    background:orange;
+}
+/*same as above but starts from the bottom*/
+li:nth-last-child(2n){
+    background:orange;
+}
+
+/*will only be chosen since it is by itself/isolated*/
+span:only-child{
+    background:violet;
+}
+
+/*first of the type will be chosen inside of selector*/
+span:first-of-type{
+    background:indigo;
+}
+span:last-of-type{
+    background:indigo;
+}
+
+/*can also do nth-last-of-type*/
+li:nth-of-type(2n){
+    background:indianred;
+}
+
+
+/*shows only spans in containers*/
+span:only-of-type{
+    background:greenyellow;
+}
+
+/*pass any other selector and selects any selector that does not pass*/
+/*if it is not said it will not be selected*/
+span:not(){
+    background:greenyellow;
+}
+
+
