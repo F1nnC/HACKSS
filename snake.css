@@ -2,70 +2,41 @@ html, body {
   height: 100%;
   }
 body {
-  background: linear-gradient(white,#b8b8d1);
-  align-items: center;
-  justify-content: center;
+  background: rgba(24, 24, 24, 0.7);
   height: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 canvas {
-  background: tan;
+  background: rgba(73, 57, 37, 0.7);
   text-align:center;
-  padding-left: 0;
-  padding-right: 0;
+  margin-left: 39%;
+  margin-right: 39%;
   top: 150px;
   left: 35%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  position: absolute;
 }
 :root {
-  --apple: blue;
-  --snake: purple;
-}
-#p1 {
-  color:purple;
-  position:relative;
-  padding-left: 50px;
-  padding-top: 25px;
-
-}
-#p2 {
-  color:purple;
-  position:relative;
-  padding-left: 50px;
-  padding-top: 25px;
+  --apple: rgb(255, 0, 0);
+  --snake: rgb(0, 128, 38);
 }
 #score {
-  color:purple;
-  position:relative;
-  padding-left: 50px;
-  padding-top: 25px;
+  color:black;
 }
 #high {
-  color:purple;
-  position:relative;
-  padding-left: 50px;
-  padding-top: 25px;
+  color:black;
 }
 #btn_stop {
-  color:purple;
+  color:black;
   position:absolute;
   bottom: 50px;
   right: 43%;
 }
 #end_msg {
-  color:purple;
+  color:black;
   position:relative;
-  padding-left: 50px;
-  padding-top: 20px;
 }
 button {
   border-radius: 20px;
   background-color: white;
-  color: purple;
+  color: black;
   font-size: 12px;
   font-weight: bold;
   padding: 12px 45px;
@@ -89,4 +60,23 @@ h3, h4 {
 }
 table ul {
   padding: 30px;
+}
+
+.newcss {
+  display: flex;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: rgba(24, 24, 24, 0.7);
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.newscore {
+  flex: 4;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
 }

@@ -6,13 +6,20 @@
   <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
 </head>
 <body>
-<p id="p1">SCORE:</p>
-<p id="score"></p>
-<p id="p2">HIGHSCORE:</p>
-<p id="high"></p>
+<br>
+<div class="newcss">
+  <p id="p1" class="newscore">SCORE: <p id="score" class="newscore"></p></p>
+  <p id="p2" class="newscore">HIGHSCORE:<p id="high" class="newscore"></p></p>
+</div>
+
+
 <button id="btn_stop" >Stop Snake Game</button>
 <p id="end_msg"></p>
+<div style="display: flex;">
 <canvas width="400" height="400" id="game"></canvas>
+</div>
+<img src="https://f1nnc.github.io/HACKSS/images/snake_game.png">
+
 <script>
 var canvas = document.getElementById('game');
 var context = canvas.getContext('2d');
