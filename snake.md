@@ -18,7 +18,7 @@
 <div style="display: flex;">
 <canvas width="400" height="400" id="game"></canvas>
 </div>
-<img src="https://f1nnc.github.io/HACKSS/images/snake_game.png">
+<p><a href="https://f1nnc.github.io/HACKSS/images/snake_game.png">I got 30 points</a></p>
 
 <script>
 var canvas = document.getElementById('game');

@@ -25,6 +25,7 @@
 <p>User testing plays a crucial role in designing user interfaces and wire-frames in computer science as it allows designers to receive feedback from users and make necessary improvements, with a notable example being the redesign of Airbnb's homepage based on user testing feedback.</p>
 
 <hr>
+<br>
 
 <h1>Customization 2</h1>
 
@@ -38,7 +39,7 @@
 <p>Selectors in CSS are used to target HTML elements and apply specific styles to them, with an example being the "class" selector which targets elements with a specific class name and applies styles accordingly.</p>
 
 <hr>
-
+<br>
 <h1>JavaScript</h1>
 
 <h2>1. What are examples of selection, iteration, and sequencing in the snake game?</h2>
@@ -46,8 +47,10 @@
 <h2>2. How does ":root" contribute to the customization of the game?</h2>
 <p>":root" in CSS is used to refer to the root element of the document, and can be used to define global variables and styles that can be accessed and applied throughout the entire document.</p>
 <h2>3. Write 2-3 sentences about how the use of HTML, JavaScript, and CSS creates the final product.</h2>
-<p>The combination of HTML, JavaScript, and CSS creates the final product of a webpage or application by defining the content, behavior, and presentation of the interface, respectively.</p>
+<p>The combination of HTML, JavaScript, and CSS creates the final product of a webpage or application by defining the content, behavior, and presentation of the interface, respectively. Each one has to do with a different element of the page, css is for styling, html is the barbones, javscript is for code.</p>
 
-
+<br>
+<h1> How could I add bootstrap into my CPT project</h1>
+<p> The way I could have added bootstrap into my CPT project would be for the css things that I have created myself. Some examples could be login screens, tables, div, etc. Mainly replacing the ugly looking css I did, with the fancy css that bootstrap does.</p>
 </div>
 </body>

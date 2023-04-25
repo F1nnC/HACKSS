@@ -14,3 +14,7 @@ p{
     text-align:center;
     color: white;
 }
+
+body {
+    background-color: rgba(24, 24, 24, 0.8);
+}

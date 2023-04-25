@@ -12,16 +12,21 @@
         <main>
           <article class="profile">
             <picture class="profile-img">
-              <source srcset="images/profile.png" media="(min-width: 600px)">
+              <source media="(min-width: 600px)">
               <img src="images/profile.png" alt="profile">
+              <img src="https://i5.walmartimages.com/asr/67306935-364d-4b21-a701-925356253ca4_1.06836a1b7a8ea6ab605025535bf27bab.jpeg" alt="profile">
             </picture>
             <div class="content">
               <p class="detail">Coding Profile</p>
-                <h1>NAME</h1>
+                <h1>Finn Carpenter</h1>
               <p>
-                Highschool student who has been coding for 3 years.
+                <ul>High School Student</ul>
+                <ul>I know javascript, html, css, python</ul>
+                <ul>My sport is wrestling</ul>
+                <ul>I &hearts; Miatas</ul>
+                <ul>Click the button to see my repos</ul>
               </p>
-              <a href="https://pages.github.com/" class="button"></a>
+              <a href="https://github.com/F1nnC?tab=repositories" class="button"></a>
             </div>
           </article>
         </main>
